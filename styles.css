@@ -60,10 +60,14 @@ a:hover{
 footer {
     line-height: 2;
     margin-bottom: 10px;
-    text-align: center;
+  
     background: black;
     color: white;
-    padding: 3px;
+   padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
 }
 h1.historyHead{
   margin:30px;
@@ -112,3 +116,11 @@ h2 {
     text-align: center;
 }
 
+input {
+  background-color: #04AA6D;
+  color: black;
+  
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
