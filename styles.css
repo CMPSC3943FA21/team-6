@@ -33,7 +33,7 @@ p {
 }
 
 li {
-    color: white;
+    color: black;
     font-size: 35px;
     display: inline-block;
     margin-right: 20px;
@@ -63,7 +63,7 @@ footer {
     text-align: center;
     background: black;
     color: white;
-    padding: 50px;
+    padding: 3px;
 }
 h1.historyHead{
   margin:30px;
@@ -111,3 +111,4 @@ h2 {
     font-size: 50px;
     text-align: center;
 }
+
