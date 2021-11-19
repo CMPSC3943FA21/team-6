@@ -25,20 +25,65 @@
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.3128419265963!2d-96.66200708476582!3d34.77289888041596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b36eabb1fbc38f%3A0x372fa4e070bcd934!2sEast%20Central%20University!5e0!3m2!1sen!2sus!4v1637335203286!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-        <div>
-            <p class="Name">
-                <input type="text" name="Name" placeholder="Name" id="Name">
-            </p>
-
-            <p class="Email">
-                <input type="text" name="Email" placeholder="Email" id="Email">
-            </p>
-
-            <p class="text">
-                <input type="text" name="Comment" placeholder="Comment" id="Comment">
-            </p>
-        </div>
-        <input type="submit" value="submit">
+        <style>
+            body {font-family: Arial, Helvetica, sans-serif;}
+            * {box-sizing: border-box;}
+            
+            input[type=text], select, textarea {
+              width: 50%;
+              padding: 5px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+              margin-top: 6px;
+              margin-bottom: 16px;
+              resize: vertical;
+            }
+            
+            input[type=submit] {
+              background-color: white;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+            
+            input[type=submit]:hover {
+              background-color: #45a049;
+            }
+            
+            .container {
+              border-radius: 5px;
+              background-color: #f2f2f2;
+              padding: 20px;
+            }
+            </style>
+            </head>
+            <body>
+            
+            <h3>Contact Form</h3>
+            
+            <div class="container">
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" placeholder="Country">
+                
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+            
+            
         
 		 <b>  Email: covidhelpline@gmail.com
 		  <br> For further inquires call us on : +1 242 442 0000,  +1 242 423 2344
