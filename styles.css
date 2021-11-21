@@ -121,6 +121,16 @@ p.historyHeadp{
   margin:15px;
   font-size: 22px;
 }
+.lastImage2{
+	
+  display:inline-block;
+  background-color:PowderBlue;
+  border: 15px solid PowderBlue;
+  border-radius:80px;
+  padding: 20px;
+  margin:15px;
+  font-size: 72px;
+}
 h1 {
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     color: CornflowerBlue;
