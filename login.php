@@ -30,8 +30,8 @@
                 <input class="form-control" type="password" name="password">
             </div>
            
-            <div class="form-group">
-                <button class="login-button">Login</button>
+            <div >
+                <button class="button" type="button" >Login</button>
             </div>
             <hr style="margin-top: 10px; margin-bottom: 10px;">
             <div class="form-group">
