@@ -35,7 +35,7 @@
             </div>
             <hr style="margin-top: 10px; margin-bottom: 10px;">
             <div class="form-group">
-                <p style="text-align: right;">Don't have an account? <a href="signup.php">Signup</a></p>
+                <p style="text-align: right;">Don't have an account? <a href="register.php">Register</a></p>
             </div>
 
         </form>
