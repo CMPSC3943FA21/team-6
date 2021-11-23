@@ -6,9 +6,9 @@ html{
     height:100%;
 }
 body{
-	width: 100%
-	height: 100%
-	background-color: #f0faff;
+	width: 100%;
+	height: 100%;
+	background-color:#f0faff;
     margin: 0;
     padding: 0;
 }
@@ -18,14 +18,14 @@ header{
     padding: 50px;
 }
 section.tp {
+	font-family: serif;
     background: DarkSlateGrey;
     text-align: center;
     color: white;
-
     padding: 50px;
   }
 
-ul {  
+ul.o {  
     text-align: center;
     margin: 0;
     padding: 0;
@@ -45,6 +45,7 @@ li.navbar {                   /*this is for the listing in the navigation
     display: inline-block;
     margin-right: 20px;
 }
+
 li.symptomscol{     /*this is for the listing in the symptoms page*/
   color: black;
   font-size: 35px;
@@ -114,7 +115,7 @@ h1.homePageCovid{
 p.historyHeadp{
   text-align:left;
   margin:10px;
-  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, serif;
   font-size:35px;
 }
 
@@ -131,11 +132,11 @@ p.historyHeadp{
 	
   display:inline-block;
   background-color:PowderBlue;
-  border: 15px solid PowderBlue;
-  border-radius:80px;
-  padding: 20px;
+  border: 5px solid PowderBlue;
+  border-radius:100px;
+  padding: 10px;
   margin:15px;
-  font-size: 72px;
+  font-size: 22px;
 }
 h1 {
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
@@ -174,7 +175,7 @@ overflow: hidden;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,serif,"Apple Color Emoji","Segoe UI Emoji";
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -228,43 +229,45 @@ section.sb{
 		
 		width: 96%;
 		margin: 0 0 3% 0;
-		padding: 0 2%;
+		padding: 0 3%;
 }
-@media screen and (max-width: 768px){
-	
-	nav ul, nav:active ul{
-		padding: 8px 0;
-		left: 23px;
-		top: 34px;
-		width: 50%;
-	}
-	.inner{
-		font-size: 120%;
-	}
-	.content h1{
-		font-size: 180%;
-	}
-	p{
-		font-size: 120%;
-	}
-	h2{
-		font-size: 160%;
-	}
-	.left-col{
-		width: 96%;
-		margin: 0 0 3% 0;
-		padding: 0 2%;
-	}
-	.sidebar{
-		width: 96%;
-		margin: 0 auto;
-	}
-	img{
-		padding: 2%;
-	}
-	.one-third-port{
-		width: 96%;
-		margin: 0 auto;
-		padding: 0;
+ul.n {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-	}
+li.n1 {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+p.cf{
+ 
+  font-family:serif;
+  
+}
+
+
