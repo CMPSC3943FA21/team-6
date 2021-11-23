@@ -95,7 +95,7 @@ h1.historyHead{
   padding:40px;
   text-align:Left;
   font-size: 80px;
-  font-family: Apple Chancery, cursive, 'Times New Roman', Times, serif;
+  font-family: Apple Chancery, cursive, 'Times New Roman', Times, sans-serif;
   color:CornflowerBlue
 ;
 
@@ -229,7 +229,7 @@ section.sb{
 		
 		width: 96%;
 		margin: 0 0 3% 0;
-		padding: 0 2%;
+		padding: 0 3%;
 }
 ul.n {
   list-style-type: none;
