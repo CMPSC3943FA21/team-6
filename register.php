@@ -1,6 +1,6 @@
 
 <?php 
-mysql_connect("localhost","root","")or die (mysql_error());
+/*mysql_connect("localhost","root","")or die (mysql_error());
 mysql_select_db("reg") or die(mysql_error());
 
 if(isset($_POST['signup']))
@@ -30,7 +30,7 @@ if(isset($_POST['signup']))
         echo "<h3>You have registered sucessfully!!!</h3>";
     }
 
-}
+}*/
 ?>
 
 <!DOCTYPE html>
