@@ -25,7 +25,7 @@ section.tp {
     padding: 50px;
   }
 
-ul {  
+ul.o {  
     text-align: center;
     margin: 0;
     padding: 0;
@@ -231,41 +231,36 @@ section.sb{
 		margin: 0 0 3% 0;
 		padding: 0 2%;
 }
-@media screen and (max-width: 768px){
-	
-	nav ul, nav:active ul{
-		padding: 8px 0;
-		left: 23px;
-		top: 34px;
-		width: 50%;
-	}
-	.inner{
-		font-size: 120%;
-	}
-	.content h1{
-		font-size: 180%;
-	}
-	p{
-		font-size: 120%;
-	}
-	h2{
-		font-size: 160%;
-	}
-	.left-col{
-		width: 96%;
-		margin: 0 0 3% 0;
-		padding: 0 2%;
-	}
-	.sidebar{
-		width: 96%;
-		margin: 0 auto;
-	}
-	img{
-		padding: 2%;
-	}
-	.one-third-port{
-		width: 96%;
-		margin: 0 auto;
-		padding: 0;
+ul.n {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-	}
+li.n1 {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+	
