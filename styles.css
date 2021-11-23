@@ -132,11 +132,11 @@ p.historyHeadp{
 	
   display:inline-block;
   background-color:PowderBlue;
-  border: 15px solid PowderBlue;
-  border-radius:80px;
-  padding: 20px;
+  border: 5px solid PowderBlue;
+  border-radius:100px;
+  padding: 10px;
   margin:15px;
-  font-size: 72px;
+  font-size: 22px;
 }
 h1 {
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
@@ -244,6 +244,7 @@ li.n1 {
   border-right:1px solid #bbb;
 }
 
+
 li:last-child {
   border-right: none;
 }
@@ -264,3 +265,4 @@ li a:hover:not(.active) {
   background-color: #04AA6D;
 }
 	
+
