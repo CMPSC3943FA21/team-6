@@ -1,5 +1,5 @@
 <?php
-session_start();
+/*session_start();
     include("connection.php");
     include("functions.php");
 
@@ -23,7 +23,7 @@ session_start();
         echo "Please enter valid info";
       }
 
-    }
+    }*/
  ?>
  <!DOCTYPE html>
  <html lang="en" dir="ltr">
