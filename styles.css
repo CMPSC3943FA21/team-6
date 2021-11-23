@@ -18,6 +18,7 @@ header{
     padding: 50px;
 }
 section.tp {
+	font-family: serif;
     background: DarkSlateGrey;
     text-align: center;
     color: white;
@@ -94,7 +95,7 @@ h1.historyHead{
   padding:40px;
   text-align:Left;
   font-size: 80px;
-  font-family: Apple Chancery, cursive, 'Times New Roman', Times, sans-serif;
+  font-family: Apple Chancery, cursive, 'Times New Roman', Times, serif;
   color:CornflowerBlue
 ;
 
@@ -114,7 +115,7 @@ h1.homePageCovid{
 p.historyHeadp{
   text-align:left;
   margin:10px;
-  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, serif;
   font-size:35px;
 }
 
@@ -174,7 +175,7 @@ overflow: hidden;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,serif,"Apple Color Emoji","Segoe UI Emoji";
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -263,5 +264,10 @@ li a:hover:not(.active) {
 .active {
   background-color: #04AA6D;
 }
-	
+p.cf{
+ 
+  font-family:serif;
+  
+}
+
 
