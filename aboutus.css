@@ -45,12 +45,6 @@ body {
     padding: 5px;
     height: 300px; /* Should be removed. Only for demonstration */
   }
-  .column2 {
-    float:bottom;
-    border-width: 1em;
-    width: 20%;
-    padding: 5px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
+
   
   /* Clear floats after the columns */
